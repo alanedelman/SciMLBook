@@ -99,10 +99,10 @@ $$d(f(x),f(y)) \leq q d(x,y)$$
 where $q < 1$, that is, if applying $f$ always decreases the distance.
 The theorem then states
 that if $f$ is a contraction mapping, then there is a unique fixed point
-(point $x^\ast$ where $f(x^\ast)=x^\ast$) and a sequence such that $x_0 \rightarrow x^\ast$
-where
+(point $x^\ast$ where $f(x^\ast)=x^\ast$) such that $x_n \rightarrow x^\ast$
+where $x_0$ is arbitrary and 
 
-$$x_{n+1} = f(x_n)$$
+$$x_{n+1} = f(x_n).$$
 
 The proof is by induction, showing that the sequence is Cauchy. For some $m>n$
 we do by the Triangle Inequality
